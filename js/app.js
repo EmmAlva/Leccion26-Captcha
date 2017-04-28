@@ -15,6 +15,14 @@ var cantidad = 7;
 
 	// console.log(clave.value);
 
+var renueva = document.getElementById("renueva");
+	renueva.addEventListener('click',function(){
+		claveGenerator(caracter,cantidad);
+	});
+
+
+
+
 
 
 var input = document.getElementById("input-value");

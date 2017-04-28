@@ -3,35 +3,41 @@ body{
 	font-size: 15px;
 	text-align: center;
 	font-family: 'Georgia';
-
 }
 #container{
 	background-color: #8b1e2e;
 	display: inline-block;
-	/*width: 100px;
-	height: 50px;*/
+}
+
+.random-input{
+	width: 300px;
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+/*INPUT2*/
+.edit-value{
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+/*INFERIOR-DERECHA*/
+.interior{
+	display: inline-block;
+	background-color: #158368;
 }
 .sincronizar{
 	width: 20px;
 	height: 20px;
-
-}
-.random-input{
-	/*margin:10px 0; */
+	cursor: pointer;
 }
 .img-captcha{
 	width: 80px;
 	height: 50px;
-	margin-top: 10px;
 }
-.interior{
-	display: inline-block;
-}
+
 .icono{
 	display: block;
 }
-.edit-value{
-	/*margin-bottom: 20px;*/
-	width: 100px;
-	height: 50px;
-}
+
